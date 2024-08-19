@@ -1,0 +1,14 @@
+Inheritance:
+
+The Circle and Triangle classes inherit from the abstract Shape class.
+This allows Circle and Triangle to inherit common behaviors, such as printName(), and enforce specific behaviors like getArea() and getPerimeter().
+Polymorphism:
+
+In the main method, objects are created using the Shape reference type (Shape circle = new Circle(...)).
+This allows the program to treat both Circle and Triangle objects as generic shapes and invoke overridden methods (getArea(), getPerimeter()) based on the actual object type.
+Abstraction:
+
+The Shape class is abstract, which means you cannot create an instance of it directly. It provides an abstract representation of what a shape is and forces the subclasses (Circle, Triangle) to implement specific details like calculating area and perimeter.
+Encapsulation:
+
+The properties of Circle and Triangle (like radius, firstSide, etc.) are encapsulated and are not directly accessible outside the class. Access is provided through methods like getArea() and getPerimeter().
