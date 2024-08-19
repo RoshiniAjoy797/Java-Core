@@ -1,0 +1,14 @@
+Explanation:
+Client's Perspective (Abstraction): The client interacts with the UserService API by calling
+methods like createUser(), getUser(), updateUser(), and deleteUser(). The client does n’t need to 
+know how the data is stored, retrieved, or manipulated. These operations are abstracted away.
+
+Implementation Details (Hidden): The UserServiceImpl class handles the actual logic for managing user data, 
+such as storing it in a Map or performing CRUD operations. The client has no direct access to this 
+implementation and doesn't need to manage these details.
+
+Benefits of Abstraction in this Context:
+Ease of Use: The API provides a simple interface for managing users, making it easy for the client to interact with the system without understanding the underlying complexity.
+Flexibility: If the implementation changes (e.g., switching from an in-memory Map to a database), the client code remains unaffected because it relies only on the abstract UserService interface.
+Security: The implementation details (like how users are stored or how database operations are performed) are hidden, reducing the risk of accidental tampering or misuse.
+In this way, abstraction in an API shields the user from unnecessary complexity, allowing them to focus on the high-level operations while the implementation remains hidden and changeable without impacting the client code.

@@ -1,0 +1,4 @@
+Lambda Expressions are (since Java 8) introduced
+Functional Interfaces, Functions, Optionals, and Stream API. 
+In order to use all of these, you will need to provide functions, 
+that must be written as lambda expressions, method references, or constructor references..
