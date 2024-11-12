@@ -24,7 +24,7 @@ public class Flames {
 				System.out.println(s[i]);
 		}
 		int resultCount = count(s);
-		System.out.print("Count of leters : " + resultCount);
+		System.out.print("Char count : " + resultCount);
 		System.out.println();
 		String result = findFlames(resultCount);
 		System.out.print("Their relationship  is : " + result);
