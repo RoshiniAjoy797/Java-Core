@@ -11,7 +11,7 @@ public class Flames {
 
 		System.out.print("Enter Male name : ");
 		String male = sc.nextLine();
-		;
+		
 		System.out.print("Enter Female name : ");
 		String female = sc.nextLine();
 
